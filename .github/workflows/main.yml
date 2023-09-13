@@ -19,7 +19,7 @@ jobs:
 
       - name: Implantar na AWS
         run: |
-          aws s3 sync . s3://meuwebsite23.s3-website.us-east-2.amazonaws.com/     
+          aws s3 sync . s3://meuwebsite23     
 
           
 
